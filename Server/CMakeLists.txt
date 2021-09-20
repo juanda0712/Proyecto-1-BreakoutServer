@@ -3,4 +3,4 @@ project(Server)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Server main.cpp)
+add_executable(Server main.cpp SocketServer.cpp SocketServer.h)
